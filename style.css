@@ -1,0 +1,39 @@
+body 
+{
+ background-color: rgb(103, 37, 201);
+}
+
+h1
+{
+    color: blue;
+    background-color: azure;
+}
+
+#show_sketch
+{
+ float: right ;
+}
+
+canvas 
+  {
+    border:5px solid white;
+    border-radius: 15px;
+    animation-name: example;
+    animation-duration: 5s;
+    margin-top: 50px; 
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px blue;}
+  to {box-shadow: 1px 1px 38px cyan;}
+
+}
+
+p
+  {
+    padding-top:10px;
+    font-size:25px; 
+  }
